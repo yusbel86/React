@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import FeedbackMessage from './componente/index ';
+import Card from './componente/card';
+
 
 class App extends Component{
   render(){
@@ -8,7 +9,8 @@ class App extends Component{
         <h1>Hola Mundo!</h1>
         <p>Bienvenido a los primeros pasos con React</p >
         <OtroSaludo />
-        <FeedbackMessage />
+        <Card />
+       
       </div>
     );
   }
@@ -23,5 +25,4 @@ class OtroSaludo extends Component{
     );
   }
 }
-
-export default App;
+export default App
